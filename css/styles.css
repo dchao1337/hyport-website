@@ -173,11 +173,6 @@ img {
     grid-row: 1 / span 2;
 }
 
-/* Cloud */
-
-.cloud .grid {
-
-}
 
 /* Languages */ 
 
@@ -216,6 +211,21 @@ img {
     justify-self: flex-end;
 }
 
+.features-main .card > i {
+    margin-right: 20px;
+}
+
+.features-main .grid {
+    padding: 30px;
+}
+
+.features-main .grid > *:last-child {
+    grid-column: 1 / span 3;
+}
+
+.features-main .grid > *:nth-child(4) {
+    grid-column: 1 / span 2;
+}
 
 
 /* Footer */
