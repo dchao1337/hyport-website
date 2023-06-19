@@ -274,6 +274,23 @@ pre {
 .footer .social i:hover {
     transform: translateY(-5px);
 }
+.footer .social i.fa-twitter:hover {
+    color:#00adee;
+}
+.footer .social i.fa-facebook:hover {
+    color: #385998;
+}
+.footer .social i.fa-instagram:hover {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.footer .social i.fa-github:hover {
+    color: #999898;
+}
+
 
 .footer ul {
     display: flex;
