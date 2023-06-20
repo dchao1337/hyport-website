@@ -279,6 +279,10 @@ pre {
 }
 .footer .social i.fa-facebook:hover {
     color: #385998;
+    background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .footer .social i.fa-instagram:hover {
     color: transparent;
@@ -288,7 +292,7 @@ pre {
     -webkit-background-clip: text;
 }
 .footer .social i.fa-github:hover {
-    color: #999898;
+    color: #bbb4b4;
 }
 
 
@@ -314,7 +318,9 @@ pre {
     .showcase .grid,
     .stats .grid,
     .cli .grid,
-    .cloud .grid {
+    .cloud .grid,
+    .features-main .grid,
+     .docs-main .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
@@ -336,6 +342,22 @@ pre {
     .cli .grid > *:first-child {
         grid-column: 1;
         grid-row: 1;
+    }
+
+    .features-head,
+    .features-sub-head,
+    .docs-head {
+        text-align: center;
+    }
+    .features-head img,
+    .features-sub-head img,
+    .docs-head img {
+        justify-self: center;
+    }
+
+    .features-main .grid > *:first-child,
+    .features-main .grid > *:nth-child(2) {
+        
     }
 }
 
