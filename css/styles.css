@@ -81,6 +81,10 @@ pre {
     flex-wrap: nowrap;
 }
 
+.hidden {
+    visibility: hidden;
+    height: 0px;
+}
 /* Showcase*/
 
 .showcase {
